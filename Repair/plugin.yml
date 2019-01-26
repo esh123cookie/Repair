@@ -1,0 +1,25 @@
+name: Repair
+version: 1.1.3
+main: Repair\Main
+api: 3.0.0
+author: Pydow Gaming
+description: Repair Command
+commands:
+  repair:
+    description: Repair Befehl.
+    usage: /repair
+    permission: repair.repair
+  rename:
+    description: Rename Befehl.
+    usage: /rename
+    permission: repair.rename
+permissions:
+  repair.repair:
+    description: Die Permission für den /repair command.
+    default: true
+  repair.repair.free:
+    description: Macht /repair umsonst.
+    default: op
+  repair.rename:
+    description: Die Permission für den /rename command.
+    default: true
